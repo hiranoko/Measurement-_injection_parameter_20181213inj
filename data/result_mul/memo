@@ -1,0 +1,139 @@
+[hiranoko@pfrproc1 code]$ python main.py
+-765.830014416
+188.185376875
+END
+
+First rate:0.00001 knob:K3&k4 Delay
+
+previous 
+PFRBT:K1:DELAY_SET             1.89
+PFRBT:K2:DELAY_SET             1.8
+PFRBT:K3:DELAY_SET             1.72
+PFRBT:K4:DELAY_SET             2.4
+PFRBT:K1:ANGLE_SET             2.02
+PFRBT:K2:ANGLE_SET             0
+PFRBT:K3:ANGLE_SET             1.51
+PFRBT:K4:ANGLE_SET             3.57
+
+following
+PFRBT:K1:DELAY_SET             1.89
+PFRBT:K2:DELAY_SET             1.8
+PFRBT:K3:DELAY_SET             1.80491
+PFRBT:K4:DELAY_SET             2.36751
+PFRBT:K1:ANGLE_SET             2.02
+PFRBT:K2:ANGLE_SET             0
+PFRBT:K3:ANGLE_SET             1.51
+PFRBT:K4:ANGLE_SET             3.57
+
+Line search
+[hiranoko@pfrproc1 code]$ python main.py
+-1413.63242954
+540.047494357
+[1.7342270332506404, 2.3945117461090391] 1e-05 910425.145351
+[1.7624996818413678, 2.3837107962219046] 2e-05 861905.387293
+[1.8049086547274589, 2.3675093713912028] 3e-05 862030.019288
+optimized = [1.8049086547274589, 2.3675093713912028] 4e-05 862030.019288
+E
+
+Second rate:0.00001 knob:K3&k4 Delay
+measurement obj_range before optimization, it is meas02.dat, but current has lossed.
+
+prev parameters
+[hiranoko@pfrproc1 code]$ ./setting.sh
+PFRBT:K1:DELAY_SET             1.89
+PFRBT:K2:DELAY_SET             1.8
+PFRBT:K3:DELAY_SET             1.80491
+PFRBT:K4:DELAY_SET             2.36751
+PFRBT:K1:ANGLE_SET             2.02
+PFRBT:K2:ANGLE_SET             0
+PFRBT:K3:ANGLE_SET             1.51
+PFRBT:K4:ANGLE_SET             3.57
+
+following parameters
+PFRBT:K1:DELAY_SET             1.89
+PFRBT:K2:DELAY_SET             1.8
+PFRBT:K3:DELAY_SET             1.79444
+PFRBT:K4:DELAY_SET             2.38736
+PFRBT:K1:ANGLE_SET             2.02
+PFRBT:K2:ANGLE_SET             0
+PFRBT:K3:ANGLE_SET             1.51
+PFRBT:K4:ANGLE_SET             3.57
+
+linesearch
+[hiranoko@pfrproc1 code]$ python main.py
+318.089241518
+-597.637549824
+[1.8007995425547181, 2.3754031725008518] 1e-05 822327.464573
+[1.7944377577243549, 2.3873559234973367] 2e-05 808010.189008
+
+Third rate:0.000001 K3 K4 delay
+prev
+PFRBT:K1:DELAY_SET             1.89
+PFRBT:K2:DELAY_SET             1.8
+PFRBT:K3:DELAY_SET             1.79444
+PFRBT:K4:DELAY_SET             2.38736
+PFRBT:K1:ANGLE_SET             2.02
+PFRBT:K2:ANGLE_SET             0
+PFRBT:K3:ANGLE_SET             1.51
+PFRBT:K4:ANGLE_SET             3.57
+following
+PFRBT:K1:DELAY_SET             1.89
+PFRBT:K2:DELAY_SET             1.8
+PFRBT:K3:DELAY_SET             1.79544
+PFRBT:K4:DELAY_SET             2.3875
+PFRBT:K1:ANGLE_SET             2.02
+PFRBT:K2:ANGLE_SET             0
+PFRBT:K3:ANGLE_SET             1.51
+PFRBT:K4:ANGLE_SET             3.57
+linesearch
+[hiranoko@pfrproc1 code]$ python main.py
+-167.654946795
+-24.3937263085
+[1.7946054126711497, 2.387380317223645] 1e-06 812367.830179
+[1.7949407225647394, 2.3874291046762619] 2e-06 811043.840234
+[1.7954436874051238, 2.3875022858551871] 3e-06 810780.076371
+optimized = [1.7954436874051238, 2.3875022858551871] 4e-06 810780.076371
+
+Forrth finish
+measurement obj_scan: step=0.003 ite=6 file:meas03.dat
+initial parameters = 1.79544368741 2.38750228586
+
+Fifth
+knob: Delay and Angle
+
+previous
+K3 Angle -40.4763398819
+K4 Angle +76.8886287687
+[1.5100040476339882, 3.5699923111371228] 1e-07 809004.095335
+[1.5100121429019646, 3.5699769334113691] 2e-07 810297.476791
+[1.5100242858039292, 3.5699538668227384] 3e-07 807990.659771
+[1.510040476339882, 3.5699231113712311] 4e-07 806853.266105
+optimized = [1.510040476339882, 3.5699231113712311] 5e-07 806853.266105
+
+following
+rate = 0.000001, number of data is 10 from 3
+PFRBT:K1:DELAY_SET             1.89
+PFRBT:K2:DELAY_SET             1.8
+PFRBT:K3:DELAY_SET             1.79542
+PFRBT:K4:DELAY_SET             2.38816
+PFRBT:K1:ANGLE_SET             2.02
+PFRBT:K2:ANGLE_SET             0
+PFRBT:K3:ANGLE_SET             1.51014
+PFRBT:K4:ANGLE_SET             3.56987
+
+Forrth finish Data is abou 21:40
+Angle : 1.51013585691 3.56987498088 **cannot find angle**
+Delay : 1.79541934 2.38815900039 **included beam loss **
+
+PFRBT:K1:DELAY_SET             1.89
+PFRBT:K2:DELAY_SET             1.8
+PFRBT:K3:DELAY_SET             1.79542
+PFRBT:K4:DELAY_SET             2.38816
+PFRBT:K1:ANGLE_SET             2.02
+PFRBT:K2:ANGLE_SET             0
+PFRBT:K3:ANGLE_SET             1.51014
+PFRBT:K4:ANGLE_SET             3.56987
+
+
+Measure the obj value scannning Delaytime.
+
